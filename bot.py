@@ -9,7 +9,7 @@ def welcome(message):
 
     bot.send_sticker(message.chat.id, sti)
 
-    mess = "Добро пожаловать, {0.first_name}! \nЯ - <b>{1.first_name}</b>, тестовый бот, созданный специально для обучения!."
+    mess = "Welcome"
 
     print(message.from_user)
     print(bot.get_me())
